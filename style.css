@@ -1,0 +1,124 @@
+.logo img{
+    width: 204px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.items ul {
+    display: flex;
+    gap: 34px;
+}
+
+.items ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.items ul li span{
+    padding: 0 5px;
+}
+
+.topsection img{
+    width: 112px;
+    height: 33px;
+    padding-left: 20px;
+}
+.topsection{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 37px 0;
+    gap: 23px;
+    font-family: sans-serif;
+    margin: 48px;
+
+}
+.topsection :nth-child(1){ 
+font-size: 46px;
+}
+.topsection p{
+    font-size: 23px;
+text-align: center;
+width: 62vw;
+font-weight: 300;
+}
+
+ .topsection .btn a{
+    background-color: #00b6d1;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: Damascus;
+    font-weight: 600;
+}
+
+.midsection{
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: baseline;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 12px;
+    padding-left: 18vw;
+}
+
+.midsection     img{
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.firsthalf{
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.item{
+    height: 42vh;
+    width: 22vw;
+    background-color: rgb(240, 240, 240);
+        text-align: center;
+    border-radius: 6px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hash{
+    width: 20vw;
+word-break: break-all;
+font-size: 8px;
+}
+.grid{
+    padding: 40px 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+}
+ .green{
+    margin: 14px 75px;
+padding: 10px;
+background-color: rgb(92, 209, 137);
+border-radius: 7px;
+color: white;
+font-size: 12px;
+}
+.green a{
+    text-decoration: none;
+    color:white;
+}
+.green1{
+
+    margin-top: 52px;
+    
+}
+.item span{
+    font-size: 10px;
+}
