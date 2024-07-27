@@ -1,2 +1,2 @@
 # ultra-edit-body
- coding the body of the website using grid
+Recently i learned the concept of grid in #CSS and therefore I have used it in coding the rest part of the ultraedit website, that is body...
