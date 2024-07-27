@@ -83,7 +83,7 @@ font-weight: 300;
 }
 
 .item{
-    height: 42vh;
+    height: 205px;
     width: 22vw;
     background-color: rgb(240, 240, 240);
         text-align: center;
@@ -121,4 +121,10 @@ font-size: 12px;
 }
 .item span{
     font-size: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
 }
